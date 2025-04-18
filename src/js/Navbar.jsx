@@ -2,6 +2,8 @@ import React from "react";
 
 export const Navbar = () => {
     return (
+		<div className="container">
+			<div className="row col-12 col-6 my-auto">
         <nav className="navbar navbar-dark bg-dark">
 				<a className="navbar-brand" href="#">Start Bootstrap</a>
 
@@ -18,5 +20,7 @@ export const Navbar = () => {
 					<a className="nav-link text-secondary" href="#">Contact</a>
 				</li>
 			</nav>
+			</div>
+			</div>
     )
 }
