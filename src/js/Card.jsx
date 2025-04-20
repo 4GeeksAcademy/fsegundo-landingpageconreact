@@ -9,7 +9,8 @@ export const Card = ({title, description, button, photo}) => {
                 <div className="card-body">
                     <h5 className="card-title">{title}</h5>
                     <p className="card-text">{description}</p>
-                    <a href="#" className="btn btn-primary">{button}</a>
+                    <a href={button.url} className="btn btn-primary">Press here</a>
+                   
                 </div>
             </div>
         

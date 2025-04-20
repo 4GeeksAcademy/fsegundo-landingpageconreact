@@ -10,6 +10,7 @@
 
 */
 
+
 .cardtattoo {
     margin-right: 40px;
     margin-left: 40px;
@@ -24,3 +25,22 @@
     margin-bottom: 10px;
 }
 
+.container-jumbo{
+   margin-left: 55px;
+   margin-right: 55px;
+   margin-bottom: 55px;
+   font-family:Verdana, Geneva, Tahoma, sans-serif
+   
+}
+
+.container-navbar{
+  margin-left: 15px;
+  
+}
+
+.buttons-navbar{
+    display: flex;
+    gap: 20px;
+    margin-left: 40px;
+   
+}
